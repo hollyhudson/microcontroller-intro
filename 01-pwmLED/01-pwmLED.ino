@@ -1,11 +1,10 @@
 /* Things to try:
  * 
+ * - make it fade to off instead of fade to bright 
  * 
- * 
- *
  */
 
-const int LEDPIN = 12;
+const int LEDPIN = 11;
 
 void setup()
 {
@@ -14,8 +13,8 @@ void setup()
 
 void loop()
 {
-	digitalWrite(LEDPIN, HIGH);
-	delay(500);
-	digitalWrite(LEDPIN, LOW);
-	delay(500);
+	for (int brightness = 0; brightness < 255; brightness++) {
+		analogWrite(LEDPIN, brightness);
+		delay(10);
+	}
 }
