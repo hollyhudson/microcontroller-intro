@@ -34,7 +34,9 @@ Image | Name | Supplier's Info | Symbol | Eagle Part | More Info
 
 #### Light
 
-* [LEDs]
+Image | Name | Supplier's Info | Symbol | Eagle Part | More Info 
+----- | ---- | --------------- | ------ | ---------- | ---------
+![RGB LEDs](docs/media/led_rgb.jpg) | RGB LEDs | [Adafruit documentation](https://www.adafruit.com/product/159) | | |
 
 #### Sound
 
