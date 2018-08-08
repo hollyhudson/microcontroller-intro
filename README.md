@@ -1,6 +1,16 @@
 # Intro to Microcontrollers
 
+## Projects
+
+* [00-simpleLED](00-simpleLED/guide.md) Wire up an LED and write code to make it blink.
+
 ## Microcontrollers
+
+* Adafruit Feather Huzzah 8266
+	* pinout: https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/pinouts
+	* product page: https://www.adafruit.com/product/2821
+	* tutorial page: https://learn.adafruit.com/adafruit-feather-huzzah-esp8266
+	* kit with parts: https://www.adafruit.com/product/2680
 
 ## Accessories
 
@@ -16,7 +26,7 @@
 
 Image | Name | Supplier's Info | Symbol | Eagle Part | More Info 
 ----- | ---- | --------------- | ------ | ---------- | ---------
-![slide switch](docs/media/switch_slide_spdt.jpg) |  Slide Switch | [Adafruit documentation]([https://www.adafruit.com/product/805) | ![SPDT switch symbol](docs/media/symbol_switch_spdt.png) | |
+![slide switch](docs/media/switch_slide_spdt.jpg) |  Slide Switch | [Adafruit documentation](https://www.adafruit.com/product/805) | ![SPDT switch symbol](docs/media/symbol_switch_spdt.png) | |
 ![magnetic contact switch](docs/media/switch_mag_door.jpg) | Magnetic Contact Switch (Door Sensor) | [Adafruit documentation](https://www.adafruit.com/product/375) |
 ![button](docs/media/button_sm.jpg) | Momentary Tactile Switch Button | [Adafruit documentation](https://www.adafruit.com/product/1119) | ![button symbol](docs/media/symbol_switch_momentary_button.png) | switch-omron:B3F-40XX | ![button schematic](docs/media/button_schematic.png) 
 

@@ -5,7 +5,7 @@
  *
  */
 
-const int LEDPIN = 12;
+const int LEDPIN = 14;
 
 void setup()
 {
