@@ -4,14 +4,18 @@
  * 
  */
 
-const int LEDPIN = 11;
-const int BUTTONPIN = 7;
+const int LEDPIN = 14;
+const int BUTTONPIN = 12;
 
 void setup()
 {
 	pinMode(LEDPIN, OUTPUT);
-	pinMode(BUTTONPIN, INPUT);
-	// pinMode(BUTTONPIN, INPUT_PULLUP);	
+	pinMode(BUTTONPIN, INPUT_PULLUP);	
+
+	// To use the code below, connect the pin on the same side as your
+	// input pin to power, with a resistor.
+	// You need to provide a default value, and this is another way to do that.
+	// pinMode(BUTTONPIN, INPUT);
 }
 
 void loop()
