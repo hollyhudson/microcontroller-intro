@@ -17,6 +17,10 @@ Since you are usally powering your circuit with a source with a stable voltage (
 If there is a lot of resistance, the current (amps, I in the equation)
 will be low.  
 
+Current is the same everywhere in a circuit.
+
+Voltage is not the same everywhere in a circuit, it is always the voltage of the power supply at the beginning of the circuit, and 0V at ground.  Voltage drops across components, but it remains the same across the entire length of a wire.
+
 ## Projects
 
 * [00-simpleLED](00-simpleLED/guide.md) Wire up an LED and write code to make it blink.
@@ -28,11 +32,15 @@ will be low.
 
 ## Microcontrollers
 
+![Adafruit Feather Huzzah](docs/media/adafruit_products_Huzzah_ESP8266_Pinout_v1.2-1.png)
+
 * Adafruit Feather Huzzah 8266
 	* pinout: https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/pinouts
 	* product page: https://www.adafruit.com/product/2821
 	* tutorial page: https://learn.adafruit.com/adafruit-feather-huzzah-esp8266
 	* kit with parts: https://www.adafruit.com/product/2680
+
+
 
 ## Accessories
 
