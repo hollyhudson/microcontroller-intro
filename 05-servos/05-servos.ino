@@ -1,5 +1,5 @@
 /* 
- * Have sunglasses cover the photocell if it gets to bright.
+ * Move a servo with buttons.
  */
 
 #include <Servo.h>
