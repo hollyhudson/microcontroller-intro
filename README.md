@@ -80,7 +80,7 @@ Image | Name | Supplier's Info | Symbol | Eagle Part | More Info
 
 Image | Name | Supplier's Info | Symbol | Eagle Part | More Info 
 ----- | ---- | --------------- | ------ | ---------- | ---------
-![buzzer](buzzer_piezo.jpg) | Buzzer | [Adafruit documentation](https://www.adafruit.com/product/160) | ![buzzer symbol](buzzer_symbol.jpg) | |
+![buzzer](docs/media/buzzer_piezo.jpg) | Buzzer | [Adafruit documentation](https://www.adafruit.com/product/160) | ![buzzer symbol](docs/media/buzzer_symbol.jpg) | |
 
 #### Motion
 
