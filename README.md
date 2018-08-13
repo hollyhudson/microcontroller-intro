@@ -1,5 +1,7 @@
 # Intro to Microcontrollers
 
+Download driver:  https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide
+
 ## Basic Electronic Theory
 
 * Volts: The pressure of a charge or electrons that want to move through a circuit, as measured in the force required to hold back the charged particles (potential energy measured in Joules) times the number of charged particles (electrons) measured in Coulombs.
