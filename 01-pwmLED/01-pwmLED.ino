@@ -13,7 +13,7 @@ void setup()
 
 void loop()
 {
-	for (int brightness = 0; brightness < 255; brightness++) {
+	for (int brightness = 0; brightness < 1024; brightness++) {
 		analogWrite(LEDPIN, brightness);
 		delay(10);
 	}

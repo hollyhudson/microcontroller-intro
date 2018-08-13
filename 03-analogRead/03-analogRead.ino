@@ -5,8 +5,8 @@
  *
  */
 
-const int LEDPIN = 11;
-const int POTPIN = A1;
+const int LEDPIN = 14;
+const int POTPIN = A0;
 
 void setup()
 {
@@ -17,8 +17,8 @@ void setup()
 
 void loop()
 {
-	Serial.println(analogRead(POTPIN));
+	int value = analogRead(POTPIN);
+	Serial.println(value);
 
-	// analogWrite(LEDPIN, analogRead(POTPIN));
-	analogWrite(LEDPIN, analogRead(POTPIN)/4);
+	analogWrite(LEDPIN, value);
 }
