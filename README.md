@@ -28,7 +28,7 @@ Voltage is not the same everywhere in a circuit, it is always the voltage of the
 * [02-buttonInput](02-buttonInput/guide.md) Use a button to light an LED.
 * [03-analogRead](03-analogRead/guide.md) Use a potentiometer as an analog input.
 * [04-photoSensor](04-photoSensor/guide.md) Make a light theramin, using a photocell as the analog input, and a buzzer as the analog output.
-* [05-motionSensor](05-motionSensor/guide.md)
+* [05-servos](05-servos/guide.md)
 
 ## Microcontrollers
 
@@ -45,8 +45,6 @@ Voltage is not the same everywhere in a circuit, it is always the voltage of the
 ## Accessories
 
 * [Prototyping Boards](docs/prototyping_boards.md)
-* [Wires](docs/wires.md)
-* [Power](docs/power.md)
 
 ## Components
 
@@ -80,7 +78,9 @@ Image | Name | Supplier's Info | Symbol | Eagle Part | More Info
 
 #### Sound
 
-* [Buzzers]
+Image | Name | Supplier's Info | Symbol | Eagle Part | More Info 
+----- | ---- | --------------- | ------ | ---------- | ---------
+![buzzer](buzzer_piezo.jpg) | Buzzer | [Adafruit documentation](https://www.adafruit.com/product/160) | ![buzzer symbol](buzzer_symbol.jpg) | |
 
 #### Motion
 
