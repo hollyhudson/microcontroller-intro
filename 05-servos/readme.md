@@ -4,6 +4,17 @@
 
 ![schematic](05-schematic.png)
 
+Servos move through an arc, and can stop in discrete positions.
+
+Adafruit has a tutorial with example code: [https://www.adafruit.com/product/169](https://www.adafruit.com/product/169)
+
+The common Micro Servo Tower Pro SG92R has the following specs:
+
+* Moves through a 180 degree arc
+* Voltage : 3V to 6V DC
+* Speed : 0.12 sec/60 (at 4.8V)
+* Torque : 1.6 kg-cm
+
 ```cpp
 #include <Servo.h>
 

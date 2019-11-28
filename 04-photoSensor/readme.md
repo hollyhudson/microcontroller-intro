@@ -4,6 +4,8 @@
 
 ![schematic](04-schematic.png)
 
+These are effectively resistors, where the more light they sense, the lower their resistance.  They are cheap, but not precise.  Adafruit has a [full tutorial page](https://learn.adafruit.com/photocells) on them.
+
 ```cpp
 void setup()
 {

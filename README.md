@@ -25,12 +25,12 @@ Voltage is not the same everywhere in a circuit, it is always the voltage of the
 
 ## Projects
 
-* [00-simpleLED](00-simpleLED/guide.md) Wire up an LED and write code to make it blink.
-* [01-pwmLED](01-pwmLED/guide.md) Use pulse width modulation to fade an LED.
-* [02-buttonInput](02-buttonInput/guide.md) Use a button to light an LED.
-* [03-analogRead](03-analogRead/guide.md) Use a potentiometer as an analog input.
-* [04-photoSensor](04-photoSensor/guide.md) Make a light theramin, using a photocell as the analog input, and a buzzer as the analog output.
-* [05-servos](05-servos/guide.md) Move a servo with buttons.
+* [00-simpleLED](00-simpleLED/readme.md) Wire up an LED and write code to make it blink.
+* [01-pwmLED](01-pwmLED/readme.md) Use pulse width modulation to fade an LED.
+* [02-buttonInput](02-buttonInput/readme.md) Use a button to light an LED.
+* [03-analogRead](03-analogRead/readme.md) Use a potentiometer as an analog input.
+* [04-photoSensor](04-photoSensor/readme.md) Make a light theramin, using a photocell as the analog input, and a buzzer as the analog output.
+* [05-servos](05-servos/readme.md) Move a servo with buttons.
 
 ## Microcontrollers
 

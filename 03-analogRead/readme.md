@@ -4,6 +4,12 @@
 
 ![schematic](03-schematic.png)
 
+In general, you wire one side to power, the other side to ground, and the center pin will provide the resistance value that the user has turned the dial to (so connect it to an input pin on your microcontroller).
+
+![Inside a potentiometer](../docs/media/potentiometer_internal.png)
+
+Image from [build-electronic-circuits.com](https://www.build-electronic-circuits.com/potentiometer/)
+
 ```cpp
 void setup()
 {
@@ -20,3 +26,4 @@ void loop()
     analogWrite(LEDPIN, value);
 }
 ```
+

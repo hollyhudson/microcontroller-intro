@@ -4,6 +4,20 @@
 
 ![schematic](02-schematic.png)
 
+If you want to know how the pins in the diagram correspond to the pins on your actual button you can use a multimeter.
+
+Buttons are a type of tactile switch called a "momentary tactile switch" because the circuit is closed only while you are pressing them.
+
+![Momentary tactile switches from Adafruit](../docs/media/buttons_sm.jpg)
+
+Source: [https://www.adafruit.com/product/1119](https://www.adafruit.com/product/1119)
+
+Another type of switch is a slide switch, where the center pin is connected to either the left or right pin, depending on the position of the switch. 
+
+![SPDT slider switch from Adafruit](../docs/media/switch_slide_spdt.jpg)
+
+Source: [https://www.adafruit.com/product/805](https://www.adafruit.com/product/805)
+
 ```cpp
 /* Things to try:
  *
